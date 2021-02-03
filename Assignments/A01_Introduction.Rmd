@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: Introduction"
-author: "Student Name"
+author: "Cheney Gardner"
 output: pdf_document
 geometry: margin=2.54cm
 ---
@@ -9,28 +9,19 @@ geometry: margin=2.54cm
 
 This exercise accompanies the introductory material in Environmental Data Analytics. 
 
-## Directions
-1. Change "Student Name" on line 3 (above) with your name.
-3. Work through the steps, **creating code and output** that fulfill each instruction.
-4. Be sure to **answer the questions** in this assignment document.
-6. When you have completed the assignment, **Knit** the text and code into a single PDF file.
-8. After Knitting, submit the completed exercise (PDF file) to the dropbox in Sakai. Add your last name into the file name (e.g., "Salk_A03_Introduction.Rmd") prior to submission.
-
-The completed exercise is due on <>.
-
 ## 1) Discussion Questions
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer: My first/only experience with R and RStudio was ENVIRON 710 Applied Data Analysis with Professor John Poulsen last semester. That was a flipped class, so we watched videos explaining the concepts at home then worked through problem sets in class, which worked well for me. I have never worked with Git and it honestly took me forever to put all of the pieces together to combine my RStudio and GitHub, so I guess there is a learning curve!
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer: I really loved John's class and my introduction to R. I'm also taking ENVIRON724 Landscape Analysis & Management this semester, which uses R so I'm hoping the combination of these classes helps to improve my R skills.
 
 3. Are there any components of the course about which you feel apprehensive?
 
-> Answer: 
+> Answer: Yes! I haven't used GitHub before and I'm having issues with a few functions. I'm also very much a work-in-progress as far as learning R so I think I'll have a lot of room to grow.
 
 
 ## 2) GitHub
@@ -38,5 +29,5 @@ The completed exercise is due on <>.
 Provide a link below to your forked course repository in GitHub. Make sure you have pulled all recent changes from the course repository  and that you have updated your course README file. 
 
 > Answer: 
-
+https://github.com/cheneygardner/Environmental_Data_Analytics_2021.git
 

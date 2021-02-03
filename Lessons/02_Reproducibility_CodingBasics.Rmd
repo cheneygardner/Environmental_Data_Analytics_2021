@@ -92,7 +92,9 @@ median(5, 4, 6, 4, 6)
 # Conditional statements
 4 > 5
 4 < 5
+#4 is not 5
 4 != 5
+#4 equals 5 (quality sign)
 4 == 5
 
 ```
@@ -126,7 +128,7 @@ longnameforillustration
 
 ```{r}
 long_name_for_illustration <- 11
-
+long_name_for_illustration
 ```
 
 ### Comments
@@ -146,6 +148,7 @@ ten_sequence <- seq(1, 10)
 ten_sequence
 
 seq(1, 10, 2) # from, to, by
+seq(1, 10, 4)
 ```
 
 The basic form of a function is `functionname()`, and the packages we will use in this class will use these basic forms. However, there may be situations when you will want to create your own function. Below is a description of how to write functions through the metaphor of creating a recipe (credit: @IsabellaGhement on Twitter). 
@@ -247,6 +250,39 @@ For now, here are some ways to access the help tools in R:
 
 ```{r}
 ??seq
+```
+
+```{r}
+cars <- cars
+car_speed <- cars$speed
+car_speed
+
+class(car_speed)
+is.data.frame(car_speed)
+df_car_speed <- as.data.frame(car_speed)
+df_car_speed
+class(df_car_speed)
+
+car_dist <- cars$dist
+df <-cbind(df_car_speed, car_dist)
+#when are binding vectors to create data frame, name of vectors will be assigned to name of column
+
+colnames(df)
+names(df)
+
+create_df <- data.frame("speed"=car_speed, "dist"=car_dist)
+#create data frame from vectors
+
+ncol(df) #number of columns
+nrow(df) #number of rows
+length(df) #same as ncol
+summary(df)
+head(df) #will show you if dataset is imported correctly
+
+df[,1] #want to look at specific column
+df[,2]
+df <- df[,-2] #delete columns that you know you wont be using
+df
 ```
 
 
